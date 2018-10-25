@@ -6,7 +6,7 @@ $password = $_POST['password'];
 $level = $_POST['level'];
 $fullname = $_POST['fullname'];
 
-$sql_insert="INSERT INTO users VALUES ('$id','$username','$password','$level', '$fullname')";
+$sql_insert="INSERT INTO id VALUES ('$id','$username','$password','$level', '$fullname')";
 
 mysqli_query($conn,$sql_insert)or die(mysqli_error($conn));
 
