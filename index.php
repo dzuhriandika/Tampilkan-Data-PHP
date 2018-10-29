@@ -6,7 +6,7 @@
 <body>
 
   <div class="container">
-    <h2><center>DATA PESERTA</center></h2>
+    <h2 class="judul"><center>DATA PESERTA</center></h2>
     <table class="tabel" align="center">
   <tr>
     <th>Id</th>
